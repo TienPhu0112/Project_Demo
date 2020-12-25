@@ -1,0 +1,28 @@
+body{
+    background-color: #fafafa ;
+   /* background-image: url("../imgs/tải%20xuống.jfif");*/
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1{
+    color: #13321F;/*rgba(150,50,255,0.1)*/
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: center;
+}
+p{
+    color: #222222;
+    font-size:14px;
+    line-height: 1.5;
+    text-align: justify;
+    width: 800px;
+    text-transform: none;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 400;/*thin-100 light-300 normal-400 medium-500 semi-bold-600 bold-700 extra-bold-800 black-900*/
+    background-color: green;
+}
+img{
+    max-width: 100%;
+
+}
