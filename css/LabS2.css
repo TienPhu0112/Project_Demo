@@ -1,0 +1,22 @@
+body{
+    padding-left: 40px ;
+    padding-right: 40px;
+}
+p{
+    border-bottom: 2px dashed #790b0b;
+    text-align: left;
+}
+h3{
+    color: #790b0b;
+}
+img{
+    max-width: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+div.detail {
+    text-align: right;
+}

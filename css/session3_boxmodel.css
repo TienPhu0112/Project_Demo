@@ -1,0 +1,41 @@
+div{
+    float:left;
+    width:calc(25% - 82px);
+    height: 450px;
+    border: 1px solid #222222;
+    padding: 15px 20px 10px ;
+    /*padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;*/
+    margin: 20px;
+    /*margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;*/
+    box-sizing: border-box;
+    box-shadow: 0 0 15px red;
+    border-radius: 50px;
+    display: block;
+    opacity:0.8;
+    transition: background-color 300ms;
+}
+img{
+    max-width: 100%;
+}
+div:hover{
+    background-color: green;
+    opacity: 1;
+}
+#first{
+    background-color: orange;
+}
+.orange{
+    background-color: orange;
+}
+.white{
+    background-color: white;
+}
+.aqua{
+    background-color: aqua;
+}
