@@ -49,7 +49,7 @@ body{
     width: 50%;
 }
 .logo a{
-    font-size: 30px;
+    font-size: 28px;
     color: #222222;
     text-decoration: none;
     font-weight: 700;
@@ -81,7 +81,7 @@ body{
 .menu li{
     float: left;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 .menu li.last{
     float: right;
@@ -109,7 +109,7 @@ body{
 .block{
     float: left;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-color: #ffffff;
     margin-bottom: 30px ;
 }
