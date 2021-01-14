@@ -3,6 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.clear{
+    clear: both;
+}
+
+#main{
+    background-color: rgb(245, 241, 241);
+}
+
 #header{
     width: 100%;
     height: 60px;
@@ -23,15 +36,13 @@
 }
 #main-menu{
     width: 100%;
-    height: 1000px;
-    background-color: #ffffff;
+    background-color: rgb(245, 241, 241);
     padding-top: 100px;
     padding-bottom: 50px;
 }
 #menu-container{
     margin: 0 96px;
-    height: 1000px;
-    background-color: #ffffff;
+    background-color: rgb(245, 241, 241);
 }
 #sidebar{
     display: inline-block;
@@ -40,6 +51,10 @@
     top: 70px;
     left: 0;
     padding: 0 15px;
+}
+
+#sidebar ul{
+    background-color: #ffffff;
 }
 
 #sidebar li{
@@ -57,7 +72,6 @@
 #menu-all{
     width: 72.72726%;
     display: inline-block;
-    height: 1000px;
     float: right;
     border-left: 2px #EA8025 solid  ;
 }
@@ -70,18 +84,18 @@
 
 .tieu-de h3{
     display: inline-block;
-    font-size: 42px;
+    font-size: 39px;
     font-weight: 700;
 }
 
 .tieu-de .down-letter{
-    margin-top: 10px;
     width: 50%;
     height: 5px;
     background-color: #EA8025;
 }
 
 .item-container{
+    max-width: 837px;
     display: flex;
     align-content: space-between;
     justify-content: space-between;
@@ -102,6 +116,7 @@
 .coffee-item-info{
     background: #ffffff;
     padding: 12px 15px;
+    margin-top: -3px;
 }
 
 .coffee-item-info a{
@@ -132,4 +147,14 @@
 .coffee-item-info .buy-now:hover{
     background-color: #ffffff;
     color: #EA8025;
+}
+
+.coffee-item .last{
+    margin-bottom: 0px;
+}
+#footer{
+    margin-top: 60px;
+    float: bottom;
+    height: 494px;
+    background-color: #000000;
 }

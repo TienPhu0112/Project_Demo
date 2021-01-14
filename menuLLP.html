@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu</title>
+    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css">
     <link rel="stylesheet" href="css/menLLP.css">
 </head>
 <body>
@@ -16,14 +17,14 @@
         <div id="menu-container">
             <div id="sidebar">
                 <ul class="item">
-                    <li><a href="#">cà phê</a></li>
-                    <li><a href="#">trà sữa</a></li>
-                    <li><a href="#">thức uống trái cây</a></li>
+                    <li><a href="#coffee">cà phê</a></li>
+                    <li><a href="#ts">trà sữa</a></li>
+                    <li><a href="#traicay">thức uống trái cây</a></li>
                 </ul>
             </div>
 
             <div id="menu-all">
-                <div class="tieu-de">
+                <div id="coffee" class="tieu-de">
                     <h3>CÀ PHÊ</h3>
                     <div class="down-letter"></div>
                 </div>
@@ -61,8 +62,8 @@
                             <a href="#" class="buy-now">MUA NGAY</a>
                         </div>
                     </div>
-
-                    <div class="tieu-de">
+                </div>
+                    <div id="ts" class="tieu-de">
                         <h3>TRÀ SỮA</h3>
                         <div class="down-letter"></div>
                     </div>
@@ -101,10 +102,55 @@
                             </div>
                     </div>
 
-                </div>
+                    <div id="traicay" class="tieu-de">
+                        <h3>THỨC UỐNG TRÁI CÂY</h3>
+                        <div class="down-letter"></div>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="coffee-item last">
+                            <img src="./imgs/bac_siu_099c749a7d6044bc9f7f0eac7f57808f_large.webp" alt="Bạc sỉu" class="menu-img">
+                            <div class="coffee-item-info">
+                                <a href="#">TRÀ SỮA TRÂN CHÂU</a>
+                                <div class="coffee-item-price">
+                                    32,000 Đ
+                                </div>
+                                <a href="#" class="buy-now">MUA NGAY</a>
+                            </div>
+                        </div>
+
+                        <div class="coffee-item last">
+                            <img src="./imgs/bac_siu_099c749a7d6044bc9f7f0eac7f57808f_large.webp" alt="Bạc sỉu" class="menu-img">
+                            <div class="coffee-item-info">
+                                <a href="#">TRÀ SỮA MACCHIATO</a>
+                                <div class="coffee-item-price">
+                                    32,000 Đ
+                                </div>
+                                <a href="#" class="buy-now">MUA NGAY</a>
+                            </div>
+                        </div>
+
+                        <div class="coffee-item last">
+                            <img src="./imgs/bac_siu_099c749a7d6044bc9f7f0eac7f57808f_large.webp" alt="Bạc sỉu" class="menu-img">
+                            <div class="coffee-item-info">
+                                <a href="#">TRÀ SỮA LLP</a>
+                                <div class="coffee-item-price">
+                                    32,000 Đ
+                                </div>
+                                <a href="#" class="buy-now">MUA NGAY</a>
+                            </div>
+                        </div>
+                    </div>
+
             </div>
+            <div class="clear"></div>
 
         </div>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+    <div id="footer">
+
     </div>
 </div>
 </body>
